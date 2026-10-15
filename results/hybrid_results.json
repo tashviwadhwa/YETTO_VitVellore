@@ -1,0 +1,78 @@
+{
+  "Glucose spike in 2 h": {
+    "results": {
+      "Twin alone (no ML)": {
+        "auprc": 0.6379349056657326,
+        "auroc": 0.7334447373666075
+      },
+      "Smartwatch + EHR": {
+        "auprc": 0.8266303662693624,
+        "auroc": 0.9240458943383107
+      },
+      "Smartwatch + EHR + twin (GlucoTwin)": {
+        "auprc": 0.8549225639325609,
+        "auroc": 0.9361101477068117
+      },
+      "CGM + EHR (reference, CGM worn)": {
+        "auprc": 0.8440284196907885,
+        "auroc": 0.9322151383025608
+      }
+    },
+    "prevalence": 0.2670299727520436,
+    "n_events": 21658
+  },
+  "Hypoglycaemia in 2 h": {
+    "results": {
+      "Twin alone (no ML)": {
+        "auprc": 0.630566298326329,
+        "auroc": 0.9992196015233786
+      },
+      "Smartwatch + EHR": {
+        "auprc": 0.13721564733166705,
+        "auroc": 0.9926027408909809
+      },
+      "Smartwatch + EHR + twin (GlucoTwin)": {
+        "auprc": 0.24180057710799577,
+        "auroc": 0.9980032797712948
+      },
+      "CGM + EHR (reference, CGM worn)": {
+        "auprc": 0.2018695164478169,
+        "auroc": 0.9965764516956588
+      }
+    },
+    "prevalence": 0.0010321890052756328,
+    "n_events": 135
+  },
+  "Glucose at +60 min": {
+    "results": {
+      "Twin alone (no ML)": {
+        "mae": 12.80646774389978
+      },
+      "Smartwatch + EHR": {
+        "mae": 15.74759668913804
+      },
+      "Smartwatch + EHR + twin (GlucoTwin)": {
+        "mae": 12.86836031548595
+      },
+      "CGM + EHR (reference, CGM worn)": {
+        "mae": 13.223034013148267
+      }
+    }
+  },
+  "Glucose at +120 min": {
+    "results": {
+      "Twin alone (no ML)": {
+        "mae": 21.969070365773646
+      },
+      "Smartwatch + EHR": {
+        "mae": 19.878625790628387
+      },
+      "Smartwatch + EHR + twin (GlucoTwin)": {
+        "mae": 17.573106764627198
+      },
+      "CGM + EHR (reference, CGM worn)": {
+        "mae": 18.51356647845543
+      }
+    }
+  }
+}

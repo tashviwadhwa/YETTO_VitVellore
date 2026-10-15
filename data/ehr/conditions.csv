@@ -1,0 +1,577 @@
+patient_id,condition,icd10,onset_date
+GT-0001,Type 2 diabetes mellitus,E11,2021-11-27
+GT-0001,Chronic kidney disease stage 2-3,N18.3,2025-10-06
+GT-0002,Type 2 diabetes mellitus,E11,2020-01-22
+GT-0003,Type 2 diabetes mellitus,E11,2022-07-20
+GT-0003,Obesity (Asian BMI cut-off),E66.9,2023-08-29
+GT-0004,Type 2 diabetes mellitus,E11,2020-04-30
+GT-0004,Essential hypertension,I10,2023-07-25
+GT-0004,Dyslipidaemia,E78.5,2024-10-30
+GT-0005,Type 2 diabetes mellitus,E11,2019-04-16
+GT-0005,Essential hypertension,I10,2021-02-08
+GT-0005,Chronic kidney disease stage 2-3,N18.3,2024-08-01
+GT-0005,Obesity (Asian BMI cut-off),E66.9,2019-09-28
+GT-0006,Type 2 diabetes mellitus,E11,2023-06-07
+GT-0006,Dyslipidaemia,E78.5,2024-08-28
+GT-0007,Type 2 diabetes mellitus,E11,2024-11-06
+GT-0007,Essential hypertension,I10,2025-07-06
+GT-0007,Dyslipidaemia,E78.5,2025-05-14
+GT-0007,Diabetic peripheral neuropathy,E11.42,2025-10-31
+GT-0007,Chronic kidney disease stage 2-3,N18.3,2025-12-15
+GT-0008,Type 2 diabetes mellitus,E11,2022-04-19
+GT-0008,Dyslipidaemia,E78.5,2022-07-06
+GT-0009,Type 2 diabetes mellitus,E11,2013-08-23
+GT-0009,Dyslipidaemia,E78.5,2018-10-12
+GT-0009,Obesity (Asian BMI cut-off),E66.9,2014-07-11
+GT-0010,Type 2 diabetes mellitus,E11,2021-12-06
+GT-0010,Essential hypertension,I10,2024-06-17
+GT-0010,Dyslipidaemia,E78.5,2025-02-05
+GT-0010,Obesity (Asian BMI cut-off),E66.9,2022-04-20
+GT-0011,Type 2 diabetes mellitus,E11,2019-12-07
+GT-0011,Essential hypertension,I10,2025-06-15
+GT-0011,Dyslipidaemia,E78.5,2021-09-01
+GT-0011,Obesity (Asian BMI cut-off),E66.9,2025-03-17
+GT-0012,Type 2 diabetes mellitus,E11,2021-03-05
+GT-0013,Type 2 diabetes mellitus,E11,2020-09-23
+GT-0013,Dyslipidaemia,E78.5,2025-08-02
+GT-0014,Type 2 diabetes mellitus,E11,2016-11-24
+GT-0014,Essential hypertension,I10,2025-08-30
+GT-0014,Dyslipidaemia,E78.5,2024-02-20
+GT-0014,Obesity (Asian BMI cut-off),E66.9,2018-05-25
+GT-0015,Type 2 diabetes mellitus,E11,2020-11-20
+GT-0016,Type 2 diabetes mellitus,E11,2022-05-14
+GT-0016,Non-proliferative diabetic retinopathy,E11.329,2023-12-02
+GT-0017,Type 2 diabetes mellitus,E11,2024-11-20
+GT-0017,Essential hypertension,I10,2025-12-04
+GT-0017,Dyslipidaemia,E78.5,2025-10-21
+GT-0017,Diabetic peripheral neuropathy,E11.42,2024-12-14
+GT-0018,Type 2 diabetes mellitus,E11,2021-09-23
+GT-0018,Essential hypertension,I10,2024-12-26
+GT-0018,Dyslipidaemia,E78.5,2026-03-24
+GT-0018,Diabetic peripheral neuropathy,E11.42,2025-12-09
+GT-0018,Obesity (Asian BMI cut-off),E66.9,2024-08-24
+GT-0019,Type 2 diabetes mellitus,E11,2024-10-07
+GT-0019,Chronic kidney disease stage 2-3,N18.3,2025-01-06
+GT-0020,Type 2 diabetes mellitus,E11,2016-02-08
+GT-0020,Essential hypertension,I10,2020-05-29
+GT-0020,Diabetic peripheral neuropathy,E11.42,2025-02-25
+GT-0020,Non-proliferative diabetic retinopathy,E11.329,2017-03-03
+GT-0020,Obesity (Asian BMI cut-off),E66.9,2017-05-06
+GT-0021,Type 2 diabetes mellitus,E11,2022-11-19
+GT-0021,Obesity (Asian BMI cut-off),E66.9,2023-04-27
+GT-0022,Type 2 diabetes mellitus,E11,2005-12-04
+GT-0022,Essential hypertension,I10,2008-05-15
+GT-0022,Diabetic peripheral neuropathy,E11.42,2020-10-03
+GT-0022,Non-proliferative diabetic retinopathy,E11.329,2022-04-26
+GT-0022,Obesity (Asian BMI cut-off),E66.9,2022-08-27
+GT-0023,Type 2 diabetes mellitus,E11,2023-12-11
+GT-0023,Dyslipidaemia,E78.5,2025-06-04
+GT-0024,Type 2 diabetes mellitus,E11,2019-04-21
+GT-0024,Essential hypertension,I10,2020-08-09
+GT-0024,Dyslipidaemia,E78.5,2021-02-25
+GT-0024,Obesity (Asian BMI cut-off),E66.9,2023-02-10
+GT-0025,Type 2 diabetes mellitus,E11,2024-09-15
+GT-0025,Dyslipidaemia,E78.5,2025-03-14
+GT-0025,Obesity (Asian BMI cut-off),E66.9,2025-07-28
+GT-0026,Type 2 diabetes mellitus,E11,2022-10-20
+GT-0026,Essential hypertension,I10,2023-01-14
+GT-0026,Dyslipidaemia,E78.5,2023-05-04
+GT-0027,Type 2 diabetes mellitus,E11,2019-04-26
+GT-0027,Dyslipidaemia,E78.5,2019-10-18
+GT-0027,Diabetic peripheral neuropathy,E11.42,2019-06-15
+GT-0027,Obesity (Asian BMI cut-off),E66.9,2025-12-21
+GT-0028,Type 2 diabetes mellitus,E11,2017-08-18
+GT-0028,Essential hypertension,I10,2025-11-15
+GT-0028,Diabetic peripheral neuropathy,E11.42,2026-01-01
+GT-0028,Non-proliferative diabetic retinopathy,E11.329,2026-06-19
+GT-0028,Obesity (Asian BMI cut-off),E66.9,2022-08-12
+GT-0029,Type 2 diabetes mellitus,E11,2023-05-07
+GT-0029,Essential hypertension,I10,2024-09-13
+GT-0029,Dyslipidaemia,E78.5,2024-09-30
+GT-0030,Type 2 diabetes mellitus,E11,2021-10-29
+GT-0030,Essential hypertension,I10,2026-03-19
+GT-0030,Dyslipidaemia,E78.5,2024-10-23
+GT-0031,Type 2 diabetes mellitus,E11,2017-06-13
+GT-0031,Essential hypertension,I10,2023-07-02
+GT-0031,Obesity (Asian BMI cut-off),E66.9,2022-05-27
+GT-0032,Type 2 diabetes mellitus,E11,2022-08-02
+GT-0032,Dyslipidaemia,E78.5,2023-02-23
+GT-0033,Type 2 diabetes mellitus,E11,2019-02-10
+GT-0033,Dyslipidaemia,E78.5,2019-04-19
+GT-0034,Type 2 diabetes mellitus,E11,2018-07-20
+GT-0034,Obesity (Asian BMI cut-off),E66.9,2025-06-18
+GT-0035,Type 2 diabetes mellitus,E11,2009-05-17
+GT-0035,Diabetic peripheral neuropathy,E11.42,2011-09-12
+GT-0036,Type 2 diabetes mellitus,E11,2021-12-18
+GT-0037,Type 2 diabetes mellitus,E11,2022-10-25
+GT-0037,Essential hypertension,I10,2023-11-22
+GT-0037,Dyslipidaemia,E78.5,2026-03-19
+GT-0038,Type 2 diabetes mellitus,E11,2016-09-20
+GT-0038,Dyslipidaemia,E78.5,2018-04-25
+GT-0039,Type 2 diabetes mellitus,E11,2023-11-26
+GT-0039,Dyslipidaemia,E78.5,2025-07-01
+GT-0040,Type 2 diabetes mellitus,E11,2025-09-10
+GT-0041,Type 2 diabetes mellitus,E11,2018-01-05
+GT-0041,Essential hypertension,I10,2023-02-16
+GT-0041,Dyslipidaemia,E78.5,2019-10-25
+GT-0042,Type 2 diabetes mellitus,E11,2021-06-07
+GT-0042,Dyslipidaemia,E78.5,2024-06-21
+GT-0042,Chronic kidney disease stage 2-3,N18.3,2021-09-16
+GT-0043,Type 2 diabetes mellitus,E11,2012-09-24
+GT-0043,Essential hypertension,I10,2015-02-07
+GT-0043,Dyslipidaemia,E78.5,2018-07-01
+GT-0043,Non-proliferative diabetic retinopathy,E11.329,2015-10-31
+GT-0043,Chronic kidney disease stage 2-3,N18.3,2017-10-20
+GT-0044,Type 2 diabetes mellitus,E11,2019-04-16
+GT-0044,Essential hypertension,I10,2023-04-21
+GT-0044,Dyslipidaemia,E78.5,2021-02-18
+GT-0044,Non-proliferative diabetic retinopathy,E11.329,2024-10-07
+GT-0045,Type 2 diabetes mellitus,E11,2015-02-08
+GT-0045,Dyslipidaemia,E78.5,2020-10-13
+GT-0045,Obesity (Asian BMI cut-off),E66.9,2017-11-16
+GT-0046,Type 2 diabetes mellitus,E11,2022-12-28
+GT-0046,Essential hypertension,I10,2025-11-08
+GT-0046,Non-proliferative diabetic retinopathy,E11.329,2024-03-09
+GT-0046,Obesity (Asian BMI cut-off),E66.9,2025-07-06
+GT-0047,Type 2 diabetes mellitus,E11,2024-07-23
+GT-0047,Essential hypertension,I10,2026-01-15
+GT-0047,Dyslipidaemia,E78.5,2025-08-07
+GT-0047,Chronic kidney disease stage 2-3,N18.3,2025-09-05
+GT-0048,Type 2 diabetes mellitus,E11,2017-07-18
+GT-0048,Dyslipidaemia,E78.5,2024-04-24
+GT-0049,Type 2 diabetes mellitus,E11,2024-07-04
+GT-0049,Essential hypertension,I10,2026-04-04
+GT-0049,Dyslipidaemia,E78.5,2026-06-11
+GT-0050,Type 2 diabetes mellitus,E11,2019-05-05
+GT-0050,Dyslipidaemia,E78.5,2022-11-16
+GT-0050,Diabetic peripheral neuropathy,E11.42,2025-10-27
+GT-0051,Type 2 diabetes mellitus,E11,2021-05-31
+GT-0051,Essential hypertension,I10,2025-10-22
+GT-0051,Dyslipidaemia,E78.5,2022-05-23
+GT-0051,Diabetic peripheral neuropathy,E11.42,2021-09-25
+GT-0051,Obesity (Asian BMI cut-off),E66.9,2023-05-28
+GT-0052,Type 2 diabetes mellitus,E11,2025-03-04
+GT-0053,Type 2 diabetes mellitus,E11,2021-06-06
+GT-0053,Dyslipidaemia,E78.5,2022-03-31
+GT-0053,Obesity (Asian BMI cut-off),E66.9,2025-10-02
+GT-0054,Type 2 diabetes mellitus,E11,2018-08-11
+GT-0054,Dyslipidaemia,E78.5,2020-12-04
+GT-0054,Diabetic peripheral neuropathy,E11.42,2025-12-10
+GT-0055,Type 2 diabetes mellitus,E11,2025-10-25
+GT-0055,Dyslipidaemia,E78.5,2025-12-23
+GT-0056,Type 2 diabetes mellitus,E11,2005-06-20
+GT-0057,Type 2 diabetes mellitus,E11,2020-02-11
+GT-0057,Essential hypertension,I10,2021-11-13
+GT-0057,Dyslipidaemia,E78.5,2026-01-17
+GT-0057,Diabetic peripheral neuropathy,E11.42,2020-12-26
+GT-0058,Type 2 diabetes mellitus,E11,2018-08-09
+GT-0058,Essential hypertension,I10,2018-09-15
+GT-0058,Dyslipidaemia,E78.5,2026-02-12
+GT-0058,Diabetic peripheral neuropathy,E11.42,2020-08-02
+GT-0058,Non-proliferative diabetic retinopathy,E11.329,2025-11-26
+GT-0059,Type 2 diabetes mellitus,E11,2018-02-18
+GT-0059,Essential hypertension,I10,2020-06-25
+GT-0059,Obesity (Asian BMI cut-off),E66.9,2021-08-01
+GT-0060,Type 2 diabetes mellitus,E11,2024-01-26
+GT-0060,Essential hypertension,I10,2025-08-02
+GT-0060,Dyslipidaemia,E78.5,2026-05-07
+GT-0060,Obesity (Asian BMI cut-off),E66.9,2026-02-15
+GT-0061,Type 2 diabetes mellitus,E11,2022-04-17
+GT-0061,Essential hypertension,I10,2024-02-12
+GT-0061,Dyslipidaemia,E78.5,2024-12-06
+GT-0061,Chronic kidney disease stage 2-3,N18.3,2023-11-09
+GT-0061,Obesity (Asian BMI cut-off),E66.9,2022-08-29
+GT-0062,Type 2 diabetes mellitus,E11,2016-08-23
+GT-0062,Essential hypertension,I10,2019-02-18
+GT-0062,Dyslipidaemia,E78.5,2021-05-24
+GT-0062,Diabetic peripheral neuropathy,E11.42,2020-07-14
+GT-0063,Type 2 diabetes mellitus,E11,2021-02-19
+GT-0063,Dyslipidaemia,E78.5,2023-03-13
+GT-0063,Non-proliferative diabetic retinopathy,E11.329,2025-03-25
+GT-0063,Obesity (Asian BMI cut-off),E66.9,2022-12-02
+GT-0064,Type 2 diabetes mellitus,E11,2017-07-26
+GT-0064,Essential hypertension,I10,2018-12-08
+GT-0064,Obesity (Asian BMI cut-off),E66.9,2017-08-18
+GT-0065,Type 2 diabetes mellitus,E11,2023-08-02
+GT-0065,Dyslipidaemia,E78.5,2023-12-11
+GT-0066,Type 2 diabetes mellitus,E11,2023-12-05
+GT-0066,Essential hypertension,I10,2026-01-03
+GT-0067,Type 2 diabetes mellitus,E11,2018-02-19
+GT-0067,Dyslipidaemia,E78.5,2022-03-09
+GT-0068,Type 2 diabetes mellitus,E11,2021-10-08
+GT-0068,Diabetic peripheral neuropathy,E11.42,2025-02-20
+GT-0068,Non-proliferative diabetic retinopathy,E11.329,2023-08-31
+GT-0069,Type 2 diabetes mellitus,E11,2021-04-07
+GT-0069,Dyslipidaemia,E78.5,2024-03-22
+GT-0069,Obesity (Asian BMI cut-off),E66.9,2022-07-31
+GT-0070,Type 2 diabetes mellitus,E11,2024-04-09
+GT-0070,Diabetic peripheral neuropathy,E11.42,2025-02-06
+GT-0071,Type 2 diabetes mellitus,E11,2022-11-11
+GT-0071,Essential hypertension,I10,2025-04-23
+GT-0071,Obesity (Asian BMI cut-off),E66.9,2026-02-27
+GT-0072,Type 2 diabetes mellitus,E11,2018-09-14
+GT-0072,Essential hypertension,I10,2020-12-15
+GT-0073,Type 2 diabetes mellitus,E11,2018-08-22
+GT-0073,Dyslipidaemia,E78.5,2020-08-27
+GT-0073,Obesity (Asian BMI cut-off),E66.9,2022-10-03
+GT-0074,Type 2 diabetes mellitus,E11,2020-03-06
+GT-0074,Essential hypertension,I10,2024-12-06
+GT-0074,Dyslipidaemia,E78.5,2020-12-01
+GT-0075,Type 2 diabetes mellitus,E11,2021-03-03
+GT-0076,Type 2 diabetes mellitus,E11,2017-09-18
+GT-0076,Dyslipidaemia,E78.5,2025-11-29
+GT-0076,Obesity (Asian BMI cut-off),E66.9,2019-03-25
+GT-0077,Type 2 diabetes mellitus,E11,2024-03-06
+GT-0077,Obesity (Asian BMI cut-off),E66.9,2026-05-03
+GT-0078,Type 2 diabetes mellitus,E11,2020-09-11
+GT-0078,Dyslipidaemia,E78.5,2022-09-23
+GT-0078,Obesity (Asian BMI cut-off),E66.9,2023-09-05
+GT-0079,Type 2 diabetes mellitus,E11,2015-08-12
+GT-0079,Diabetic peripheral neuropathy,E11.42,2019-07-03
+GT-0079,Obesity (Asian BMI cut-off),E66.9,2018-10-05
+GT-0080,Type 2 diabetes mellitus,E11,2025-03-02
+GT-0080,Essential hypertension,I10,2025-10-04
+GT-0080,Diabetic peripheral neuropathy,E11.42,2025-08-31
+GT-0080,Obesity (Asian BMI cut-off),E66.9,2026-02-02
+GT-0081,Type 2 diabetes mellitus,E11,2020-07-19
+GT-0081,Essential hypertension,I10,2022-06-16
+GT-0081,Dyslipidaemia,E78.5,2022-07-09
+GT-0082,Type 2 diabetes mellitus,E11,2017-01-05
+GT-0082,Essential hypertension,I10,2018-07-31
+GT-0082,Dyslipidaemia,E78.5,2021-07-09
+GT-0082,Chronic kidney disease stage 2-3,N18.3,2017-11-22
+GT-0082,Obesity (Asian BMI cut-off),E66.9,2018-03-02
+GT-0083,Type 2 diabetes mellitus,E11,2019-03-20
+GT-0083,Essential hypertension,I10,2024-01-10
+GT-0083,Dyslipidaemia,E78.5,2021-07-17
+GT-0083,Diabetic peripheral neuropathy,E11.42,2020-12-24
+GT-0084,Type 2 diabetes mellitus,E11,2025-09-03
+GT-0085,Type 2 diabetes mellitus,E11,2013-09-19
+GT-0085,Diabetic peripheral neuropathy,E11.42,2020-12-15
+GT-0086,Type 2 diabetes mellitus,E11,2015-06-26
+GT-0086,Chronic kidney disease stage 2-3,N18.3,2023-02-04
+GT-0087,Type 2 diabetes mellitus,E11,2018-06-01
+GT-0087,Essential hypertension,I10,2021-07-07
+GT-0087,Dyslipidaemia,E78.5,2019-04-20
+GT-0087,Diabetic peripheral neuropathy,E11.42,2021-08-13
+GT-0087,Obesity (Asian BMI cut-off),E66.9,2020-11-15
+GT-0088,Type 2 diabetes mellitus,E11,2024-03-06
+GT-0088,Essential hypertension,I10,2026-04-12
+GT-0088,Dyslipidaemia,E78.5,2026-02-08
+GT-0089,Type 2 diabetes mellitus,E11,2019-07-27
+GT-0089,Dyslipidaemia,E78.5,2024-05-27
+GT-0090,Type 2 diabetes mellitus,E11,2011-12-05
+GT-0090,Non-proliferative diabetic retinopathy,E11.329,2022-10-05
+GT-0091,Type 2 diabetes mellitus,E11,2025-03-09
+GT-0091,Essential hypertension,I10,2025-04-10
+GT-0091,Obesity (Asian BMI cut-off),E66.9,2026-03-07
+GT-0092,Type 2 diabetes mellitus,E11,2024-02-12
+GT-0092,Essential hypertension,I10,2025-03-15
+GT-0093,Type 2 diabetes mellitus,E11,2018-10-14
+GT-0093,Diabetic peripheral neuropathy,E11.42,2021-04-11
+GT-0093,Chronic kidney disease stage 2-3,N18.3,2023-10-30
+GT-0094,Type 2 diabetes mellitus,E11,2012-11-21
+GT-0094,Dyslipidaemia,E78.5,2016-11-24
+GT-0094,Diabetic peripheral neuropathy,E11.42,2019-04-08
+GT-0094,Non-proliferative diabetic retinopathy,E11.329,2021-05-21
+GT-0095,Type 2 diabetes mellitus,E11,2024-11-15
+GT-0095,Essential hypertension,I10,2026-03-04
+GT-0095,Chronic kidney disease stage 2-3,N18.3,2026-03-01
+GT-0096,Type 2 diabetes mellitus,E11,2024-11-03
+GT-0096,Essential hypertension,I10,2026-05-09
+GT-0096,Dyslipidaemia,E78.5,2026-02-10
+GT-0097,Type 2 diabetes mellitus,E11,2010-10-27
+GT-0097,Dyslipidaemia,E78.5,2014-01-03
+GT-0097,Diabetic peripheral neuropathy,E11.42,2011-08-27
+GT-0098,Type 2 diabetes mellitus,E11,2020-04-23
+GT-0099,Type 2 diabetes mellitus,E11,2019-11-16
+GT-0100,Type 2 diabetes mellitus,E11,2024-03-24
+GT-0100,Dyslipidaemia,E78.5,2024-09-07
+GT-0101,Type 2 diabetes mellitus,E11,2020-10-03
+GT-0101,Dyslipidaemia,E78.5,2020-11-01
+GT-0101,Obesity (Asian BMI cut-off),E66.9,2022-09-25
+GT-0102,Type 2 diabetes mellitus,E11,2021-09-05
+GT-0102,Essential hypertension,I10,2023-03-21
+GT-0102,Dyslipidaemia,E78.5,2026-02-16
+GT-0102,Diabetic peripheral neuropathy,E11.42,2021-10-17
+GT-0102,Obesity (Asian BMI cut-off),E66.9,2023-03-11
+GT-0103,Type 2 diabetes mellitus,E11,2013-04-29
+GT-0103,Diabetic peripheral neuropathy,E11.42,2022-09-30
+GT-0104,Type 2 diabetes mellitus,E11,2025-03-25
+GT-0104,Dyslipidaemia,E78.5,2025-03-27
+GT-0104,Obesity (Asian BMI cut-off),E66.9,2026-01-13
+GT-0105,Type 2 diabetes mellitus,E11,2007-05-04
+GT-0105,Essential hypertension,I10,2024-02-01
+GT-0105,Dyslipidaemia,E78.5,2015-08-05
+GT-0105,Chronic kidney disease stage 2-3,N18.3,2021-12-26
+GT-0105,Obesity (Asian BMI cut-off),E66.9,2012-07-01
+GT-0106,Type 2 diabetes mellitus,E11,2022-04-26
+GT-0106,Obesity (Asian BMI cut-off),E66.9,2024-01-20
+GT-0107,Type 2 diabetes mellitus,E11,2022-05-19
+GT-0107,Essential hypertension,I10,2025-07-02
+GT-0107,Chronic kidney disease stage 2-3,N18.3,2026-05-07
+GT-0107,Obesity (Asian BMI cut-off),E66.9,2025-03-17
+GT-0108,Type 2 diabetes mellitus,E11,2020-03-02
+GT-0108,Dyslipidaemia,E78.5,2026-03-19
+GT-0109,Type 2 diabetes mellitus,E11,2017-08-08
+GT-0109,Essential hypertension,I10,2018-09-09
+GT-0110,Type 2 diabetes mellitus,E11,2019-09-02
+GT-0110,Essential hypertension,I10,2026-06-16
+GT-0110,Non-proliferative diabetic retinopathy,E11.329,2021-11-15
+GT-0111,Type 2 diabetes mellitus,E11,2021-08-30
+GT-0111,Obesity (Asian BMI cut-off),E66.9,2025-06-30
+GT-0112,Type 2 diabetes mellitus,E11,2019-07-16
+GT-0112,Dyslipidaemia,E78.5,2021-09-08
+GT-0112,Non-proliferative diabetic retinopathy,E11.329,2025-04-01
+GT-0113,Type 2 diabetes mellitus,E11,2023-11-06
+GT-0113,Essential hypertension,I10,2024-06-23
+GT-0113,Dyslipidaemia,E78.5,2024-07-15
+GT-0113,Chronic kidney disease stage 2-3,N18.3,2023-11-09
+GT-0114,Type 2 diabetes mellitus,E11,2025-07-03
+GT-0114,Essential hypertension,I10,2026-02-22
+GT-0114,Dyslipidaemia,E78.5,2025-09-10
+GT-0114,Chronic kidney disease stage 2-3,N18.3,2026-03-21
+GT-0114,Obesity (Asian BMI cut-off),E66.9,2025-11-19
+GT-0115,Type 2 diabetes mellitus,E11,2023-04-13
+GT-0116,Type 2 diabetes mellitus,E11,2019-10-29
+GT-0116,Dyslipidaemia,E78.5,2021-01-20
+GT-0116,Non-proliferative diabetic retinopathy,E11.329,2021-08-15
+GT-0117,Type 2 diabetes mellitus,E11,2017-10-01
+GT-0117,Essential hypertension,I10,2022-09-23
+GT-0117,Dyslipidaemia,E78.5,2023-01-10
+GT-0118,Type 2 diabetes mellitus,E11,2020-08-07
+GT-0118,Essential hypertension,I10,2021-06-03
+GT-0118,Dyslipidaemia,E78.5,2021-07-04
+GT-0119,Type 2 diabetes mellitus,E11,2021-01-20
+GT-0119,Dyslipidaemia,E78.5,2024-08-14
+GT-0120,Type 2 diabetes mellitus,E11,2022-07-24
+GT-0120,Essential hypertension,I10,2025-07-08
+GT-0121,Type 2 diabetes mellitus,E11,2020-11-04
+GT-0122,Type 2 diabetes mellitus,E11,2020-12-29
+GT-0122,Essential hypertension,I10,2025-02-24
+GT-0122,Obesity (Asian BMI cut-off),E66.9,2025-08-23
+GT-0123,Type 2 diabetes mellitus,E11,2023-01-06
+GT-0123,Essential hypertension,I10,2026-04-16
+GT-0124,Type 2 diabetes mellitus,E11,2005-04-12
+GT-0124,Dyslipidaemia,E78.5,2025-07-31
+GT-0124,Diabetic peripheral neuropathy,E11.42,2017-02-26
+GT-0125,Type 2 diabetes mellitus,E11,2023-03-13
+GT-0126,Type 2 diabetes mellitus,E11,2021-03-12
+GT-0126,Dyslipidaemia,E78.5,2024-01-18
+GT-0127,Type 2 diabetes mellitus,E11,2024-05-15
+GT-0127,Essential hypertension,I10,2025-10-29
+GT-0127,Dyslipidaemia,E78.5,2025-12-02
+GT-0127,Obesity (Asian BMI cut-off),E66.9,2025-07-02
+GT-0128,Type 2 diabetes mellitus,E11,2022-04-28
+GT-0129,Type 2 diabetes mellitus,E11,2014-04-19
+GT-0129,Dyslipidaemia,E78.5,2025-12-20
+GT-0129,Diabetic peripheral neuropathy,E11.42,2024-09-13
+GT-0130,Type 2 diabetes mellitus,E11,2023-07-22
+GT-0130,Dyslipidaemia,E78.5,2026-03-30
+GT-0131,Type 2 diabetes mellitus,E11,2007-05-02
+GT-0131,Essential hypertension,I10,2025-09-08
+GT-0131,Dyslipidaemia,E78.5,2013-06-03
+GT-0131,Diabetic peripheral neuropathy,E11.42,2022-08-14
+GT-0132,Type 2 diabetes mellitus,E11,1999-10-03
+GT-0132,Essential hypertension,I10,2023-01-07
+GT-0132,Diabetic peripheral neuropathy,E11.42,2004-10-11
+GT-0132,Chronic kidney disease stage 2-3,N18.3,2004-08-06
+GT-0133,Type 2 diabetes mellitus,E11,2012-09-26
+GT-0133,Essential hypertension,I10,2020-10-23
+GT-0133,Chronic kidney disease stage 2-3,N18.3,2016-03-24
+GT-0133,Obesity (Asian BMI cut-off),E66.9,2022-03-06
+GT-0134,Type 2 diabetes mellitus,E11,2022-10-31
+GT-0134,Essential hypertension,I10,2024-07-31
+GT-0134,Obesity (Asian BMI cut-off),E66.9,2025-03-17
+GT-0135,Type 2 diabetes mellitus,E11,2019-07-29
+GT-0135,Essential hypertension,I10,2020-07-09
+GT-0135,Diabetic peripheral neuropathy,E11.42,2024-03-22
+GT-0135,Non-proliferative diabetic retinopathy,E11.329,2025-08-02
+GT-0136,Type 2 diabetes mellitus,E11,2023-09-10
+GT-0136,Dyslipidaemia,E78.5,2024-09-22
+GT-0136,Obesity (Asian BMI cut-off),E66.9,2025-11-02
+GT-0137,Type 2 diabetes mellitus,E11,2023-06-23
+GT-0137,Dyslipidaemia,E78.5,2026-01-26
+GT-0138,Type 2 diabetes mellitus,E11,2021-12-04
+GT-0139,Type 2 diabetes mellitus,E11,2018-06-18
+GT-0139,Diabetic peripheral neuropathy,E11.42,2021-02-13
+GT-0139,Obesity (Asian BMI cut-off),E66.9,2019-02-24
+GT-0140,Type 2 diabetes mellitus,E11,2004-05-21
+GT-0140,Dyslipidaemia,E78.5,2010-06-26
+GT-0140,Diabetic peripheral neuropathy,E11.42,2024-07-14
+GT-0141,Type 2 diabetes mellitus,E11,2022-08-10
+GT-0141,Dyslipidaemia,E78.5,2023-10-13
+GT-0141,Obesity (Asian BMI cut-off),E66.9,2023-03-16
+GT-0142,Type 2 diabetes mellitus,E11,2019-02-05
+GT-0143,Type 2 diabetes mellitus,E11,2014-01-22
+GT-0143,Essential hypertension,I10,2025-09-16
+GT-0143,Diabetic peripheral neuropathy,E11.42,2016-02-16
+GT-0143,Obesity (Asian BMI cut-off),E66.9,2026-02-17
+GT-0144,Type 2 diabetes mellitus,E11,2024-10-25
+GT-0144,Dyslipidaemia,E78.5,2025-04-28
+GT-0145,Type 2 diabetes mellitus,E11,2023-01-25
+GT-0145,Dyslipidaemia,E78.5,2024-03-15
+GT-0145,Obesity (Asian BMI cut-off),E66.9,2024-10-06
+GT-0146,Type 2 diabetes mellitus,E11,2015-10-30
+GT-0146,Essential hypertension,I10,2016-01-20
+GT-0146,Dyslipidaemia,E78.5,2016-12-18
+GT-0147,Type 2 diabetes mellitus,E11,2019-03-27
+GT-0147,Essential hypertension,I10,2023-07-21
+GT-0147,Obesity (Asian BMI cut-off),E66.9,2025-05-08
+GT-0148,Type 2 diabetes mellitus,E11,2016-10-15
+GT-0149,Type 2 diabetes mellitus,E11,2013-07-18
+GT-0149,Essential hypertension,I10,2016-06-22
+GT-0149,Dyslipidaemia,E78.5,2022-04-02
+GT-0150,Type 2 diabetes mellitus,E11,2025-07-23
+GT-0151,Type 2 diabetes mellitus,E11,2024-08-25
+GT-0151,Essential hypertension,I10,2025-08-24
+GT-0151,Dyslipidaemia,E78.5,2025-09-05
+GT-0151,Obesity (Asian BMI cut-off),E66.9,2024-10-25
+GT-0152,Type 2 diabetes mellitus,E11,2021-01-09
+GT-0152,Dyslipidaemia,E78.5,2023-12-16
+GT-0152,Non-proliferative diabetic retinopathy,E11.329,2025-04-06
+GT-0152,Chronic kidney disease stage 2-3,N18.3,2023-03-28
+GT-0153,Type 2 diabetes mellitus,E11,2010-12-28
+GT-0153,Diabetic peripheral neuropathy,E11.42,2024-02-08
+GT-0154,Type 2 diabetes mellitus,E11,2024-01-12
+GT-0155,Type 2 diabetes mellitus,E11,2017-04-24
+GT-0155,Essential hypertension,I10,2020-12-18
+GT-0155,Dyslipidaemia,E78.5,2019-07-09
+GT-0155,Chronic kidney disease stage 2-3,N18.3,2019-03-17
+GT-0156,Type 2 diabetes mellitus,E11,2020-02-21
+GT-0156,Essential hypertension,I10,2023-04-06
+GT-0156,Dyslipidaemia,E78.5,2024-06-24
+GT-0156,Obesity (Asian BMI cut-off),E66.9,2021-01-22
+GT-0157,Type 2 diabetes mellitus,E11,2025-02-16
+GT-0157,Dyslipidaemia,E78.5,2026-02-20
+GT-0157,Diabetic peripheral neuropathy,E11.42,2026-01-01
+GT-0158,Type 2 diabetes mellitus,E11,2022-08-21
+GT-0158,Essential hypertension,I10,2023-12-22
+GT-0158,Obesity (Asian BMI cut-off),E66.9,2025-08-30
+GT-0159,Type 2 diabetes mellitus,E11,2023-09-12
+GT-0159,Essential hypertension,I10,2024-01-17
+GT-0159,Dyslipidaemia,E78.5,2025-10-31
+GT-0159,Chronic kidney disease stage 2-3,N18.3,2025-03-20
+GT-0159,Obesity (Asian BMI cut-off),E66.9,2025-06-29
+GT-0160,Type 2 diabetes mellitus,E11,2023-01-05
+GT-0160,Essential hypertension,I10,2025-07-13
+GT-0160,Dyslipidaemia,E78.5,2025-12-01
+GT-0160,Non-proliferative diabetic retinopathy,E11.329,2023-12-09
+GT-0160,Chronic kidney disease stage 2-3,N18.3,2026-02-07
+GT-0161,Type 2 diabetes mellitus,E11,2022-07-08
+GT-0161,Essential hypertension,I10,2026-05-14
+GT-0161,Dyslipidaemia,E78.5,2022-11-05
+GT-0161,Chronic kidney disease stage 2-3,N18.3,2025-03-28
+GT-0162,Type 2 diabetes mellitus,E11,1998-09-08
+GT-0162,Diabetic peripheral neuropathy,E11.42,2024-11-01
+GT-0162,Obesity (Asian BMI cut-off),E66.9,2001-09-05
+GT-0163,Type 2 diabetes mellitus,E11,2024-07-27
+GT-0163,Dyslipidaemia,E78.5,2024-12-18
+GT-0163,Non-proliferative diabetic retinopathy,E11.329,2025-11-02
+GT-0163,Obesity (Asian BMI cut-off),E66.9,2025-05-01
+GT-0164,Type 2 diabetes mellitus,E11,2008-03-01
+GT-0164,Essential hypertension,I10,2019-07-03
+GT-0164,Dyslipidaemia,E78.5,2019-06-09
+GT-0165,Type 2 diabetes mellitus,E11,2021-10-10
+GT-0165,Chronic kidney disease stage 2-3,N18.3,2023-10-09
+GT-0166,Type 2 diabetes mellitus,E11,2024-08-11
+GT-0166,Essential hypertension,I10,2025-11-12
+GT-0166,Dyslipidaemia,E78.5,2025-06-27
+GT-0166,Chronic kidney disease stage 2-3,N18.3,2025-10-23
+GT-0167,Type 2 diabetes mellitus,E11,2023-07-18
+GT-0167,Dyslipidaemia,E78.5,2025-01-26
+GT-0168,Type 2 diabetes mellitus,E11,2022-05-06
+GT-0168,Dyslipidaemia,E78.5,2024-03-16
+GT-0168,Obesity (Asian BMI cut-off),E66.9,2024-01-04
+GT-0169,Type 2 diabetes mellitus,E11,2024-12-30
+GT-0169,Essential hypertension,I10,2026-01-24
+GT-0170,Type 2 diabetes mellitus,E11,2025-02-28
+GT-0170,Essential hypertension,I10,2025-11-02
+GT-0171,Type 2 diabetes mellitus,E11,2021-04-15
+GT-0171,Essential hypertension,I10,2021-07-23
+GT-0171,Dyslipidaemia,E78.5,2024-04-03
+GT-0172,Type 2 diabetes mellitus,E11,2008-02-29
+GT-0172,Dyslipidaemia,E78.5,2016-01-25
+GT-0172,Diabetic peripheral neuropathy,E11.42,2020-04-16
+GT-0172,Non-proliferative diabetic retinopathy,E11.329,2023-10-09
+GT-0173,Type 2 diabetes mellitus,E11,2017-04-30
+GT-0173,Dyslipidaemia,E78.5,2019-06-28
+GT-0173,Obesity (Asian BMI cut-off),E66.9,2019-10-24
+GT-0174,Type 2 diabetes mellitus,E11,2024-05-02
+GT-0175,Type 2 diabetes mellitus,E11,2011-02-14
+GT-0175,Essential hypertension,I10,2024-11-08
+GT-0175,Dyslipidaemia,E78.5,2026-01-21
+GT-0175,Non-proliferative diabetic retinopathy,E11.329,2021-07-27
+GT-0176,Type 2 diabetes mellitus,E11,2013-11-29
+GT-0176,Dyslipidaemia,E78.5,2023-06-18
+GT-0176,Chronic kidney disease stage 2-3,N18.3,2017-07-22
+GT-0177,Type 2 diabetes mellitus,E11,2019-10-29
+GT-0177,Dyslipidaemia,E78.5,2023-10-18
+GT-0177,Obesity (Asian BMI cut-off),E66.9,2022-05-13
+GT-0178,Type 2 diabetes mellitus,E11,2013-03-27
+GT-0178,Essential hypertension,I10,2024-05-20
+GT-0178,Dyslipidaemia,E78.5,2013-11-10
+GT-0178,Diabetic peripheral neuropathy,E11.42,2018-11-09
+GT-0178,Non-proliferative diabetic retinopathy,E11.329,2019-12-31
+GT-0178,Chronic kidney disease stage 2-3,N18.3,2021-05-20
+GT-0179,Type 2 diabetes mellitus,E11,2024-01-24
+GT-0179,Essential hypertension,I10,2024-04-22
+GT-0179,Dyslipidaemia,E78.5,2025-07-13
+GT-0180,Type 2 diabetes mellitus,E11,2007-10-10
+GT-0180,Dyslipidaemia,E78.5,2019-10-13
+GT-0180,Diabetic peripheral neuropathy,E11.42,2022-04-15
+GT-0180,Chronic kidney disease stage 2-3,N18.3,2009-05-03
+GT-0180,Obesity (Asian BMI cut-off),E66.9,2010-01-06
+GT-0181,Type 2 diabetes mellitus,E11,2023-07-30
+GT-0181,Essential hypertension,I10,2023-10-26
+GT-0181,Dyslipidaemia,E78.5,2024-11-16
+GT-0181,Obesity (Asian BMI cut-off),E66.9,2024-03-30
+GT-0182,Type 2 diabetes mellitus,E11,2025-03-17
+GT-0182,Dyslipidaemia,E78.5,2025-07-01
+GT-0183,Type 2 diabetes mellitus,E11,2017-06-30
+GT-0183,Diabetic peripheral neuropathy,E11.42,2017-09-15
+GT-0184,Type 2 diabetes mellitus,E11,2022-03-23
+GT-0184,Essential hypertension,I10,2023-08-20
+GT-0184,Dyslipidaemia,E78.5,2024-09-15
+GT-0185,Type 2 diabetes mellitus,E11,2017-05-26
+GT-0185,Dyslipidaemia,E78.5,2021-09-05
+GT-0186,Type 2 diabetes mellitus,E11,2020-08-12
+GT-0186,Dyslipidaemia,E78.5,2026-04-14
+GT-0186,Obesity (Asian BMI cut-off),E66.9,2023-12-27
+GT-0187,Type 2 diabetes mellitus,E11,2018-11-06
+GT-0187,Essential hypertension,I10,2020-11-03
+GT-0187,Dyslipidaemia,E78.5,2023-02-11
+GT-0187,Obesity (Asian BMI cut-off),E66.9,2025-10-08
+GT-0188,Type 2 diabetes mellitus,E11,2015-03-06
+GT-0188,Essential hypertension,I10,2016-08-08
+GT-0188,Chronic kidney disease stage 2-3,N18.3,2024-03-11
+GT-0189,Type 2 diabetes mellitus,E11,2017-07-25
+GT-0190,Type 2 diabetes mellitus,E11,2020-01-03
+GT-0190,Essential hypertension,I10,2026-03-21
+GT-0190,Dyslipidaemia,E78.5,2025-08-24
+GT-0191,Type 2 diabetes mellitus,E11,2024-08-11
+GT-0191,Dyslipidaemia,E78.5,2025-03-28
+GT-0192,Type 2 diabetes mellitus,E11,2021-02-28
+GT-0192,Essential hypertension,I10,2024-07-18
+GT-0192,Dyslipidaemia,E78.5,2022-10-26
+GT-0192,Chronic kidney disease stage 2-3,N18.3,2023-09-29
+GT-0192,Obesity (Asian BMI cut-off),E66.9,2023-04-20
+GT-0193,Type 2 diabetes mellitus,E11,2014-06-26
+GT-0193,Dyslipidaemia,E78.5,2014-10-23
+GT-0194,Type 2 diabetes mellitus,E11,2015-10-27
+GT-0194,Essential hypertension,I10,2024-05-22
+GT-0195,Type 2 diabetes mellitus,E11,2016-02-01
+GT-0196,Type 2 diabetes mellitus,E11,2025-07-20
+GT-0196,Dyslipidaemia,E78.5,2026-04-15
+GT-0196,Obesity (Asian BMI cut-off),E66.9,2026-04-21
+GT-0197,Type 2 diabetes mellitus,E11,2025-08-03
+GT-0197,Diabetic peripheral neuropathy,E11.42,2026-03-22
+GT-0198,Type 2 diabetes mellitus,E11,2013-07-15
+GT-0198,Essential hypertension,I10,2021-05-26
+GT-0198,Obesity (Asian BMI cut-off),E66.9,2023-03-05
+GT-0199,Type 2 diabetes mellitus,E11,2022-07-07
+GT-0199,Essential hypertension,I10,2025-12-04
+GT-0200,Type 2 diabetes mellitus,E11,2024-02-05
+GT-0200,Dyslipidaemia,E78.5,2024-11-21
+GT-0200,Diabetic peripheral neuropathy,E11.42,2024-03-07
+GT-0200,Obesity (Asian BMI cut-off),E66.9,2024-04-02

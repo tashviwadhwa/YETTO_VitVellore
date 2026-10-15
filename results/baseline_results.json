@@ -1,0 +1,206 @@
+{
+  "classification": {
+    "Glucose spike in 2 h": {
+      "EHR only": {
+        "auroc": 0.9023099224903937,
+        "auroc_fold_std": 0.0071694503670655715,
+        "auprc": 0.7596896538848725,
+        "prevalence": 0.2658171531780393,
+        "n_moments": 150596,
+        "n_events": 40031,
+        "threshold": 0.5602301955223083,
+        "sensitivity": 0.8000549574080088,
+        "specificity": 0.8327228327228328,
+        "ppv": 0.6339218558251851,
+        "false_alert_checks_per_patient_day": 7.1492075763432545
+      },
+      "CGM mode | without EHR": {
+        "auroc": 0.934523543738069,
+        "auroc_fold_std": 0.004800073415258334,
+        "auprc": 0.848000591413507,
+        "prevalence": 0.2658171531780393,
+        "n_moments": 150596,
+        "n_events": 40031,
+        "threshold": 0.6238138675689697,
+        "sensitivity": 0.8000049961280008,
+        "specificity": 0.8890155112377335,
+        "ppv": 0.7229772439949431,
+        "false_alert_checks_per_patient_day": 4.743332044839582
+      },
+      "CGM mode | with EHR": {
+        "auroc": 0.9331066783935256,
+        "auroc_fold_std": 0.00506353806128687,
+        "auprc": 0.8458404933312744,
+        "prevalence": 0.2658171531780393,
+        "n_moments": 150596,
+        "n_events": 40031,
+        "threshold": 0.6227031946182251,
+        "sensitivity": 0.8000049961280008,
+        "specificity": 0.88781259892371,
+        "ppv": 0.7208129825114227,
+        "false_alert_checks_per_patient_day": 4.794742945496714
+      },
+      "Smartwatch-only mode | without EHR": {
+        "auroc": 0.9095955721820675,
+        "auroc_fold_std": 0.007827513512488195,
+        "auprc": 0.7880451823877397,
+        "prevalence": 0.2658171531780393,
+        "n_moments": 150596,
+        "n_events": 40031,
+        "threshold": 0.6032111048698425,
+        "sensitivity": 0.8000299767680048,
+        "specificity": 0.8537964093519649,
+        "ppv": 0.6645639227241601,
+        "false_alert_checks_per_patient_day": 6.248550444530344
+      },
+      "Smartwatch-only mode | with EHR": {
+        "auroc": 0.9237668552993622,
+        "auroc_fold_std": 0.005923506691863401,
+        "auprc": 0.8262054779022797,
+        "prevalence": 0.2658171531780393,
+        "n_moments": 150596,
+        "n_events": 40031,
+        "threshold": 0.6060295701026917,
+        "sensitivity": 0.8000049961280008,
+        "specificity": 0.8715325826436937,
+        "ppv": 0.6927469770057756,
+        "false_alert_checks_per_patient_day": 5.490529570931581
+      }
+    },
+    "Hypoglycaemia in 2 h": {
+      "EHR only": {
+        "auroc": 0.9941243379547149,
+        "auroc_fold_std": 0.004888124380826384,
+        "auprc": 0.1356721822855611,
+        "prevalence": 0.0011384111384111384,
+        "n_moments": 244200,
+        "n_events": 278,
+        "threshold": 0.019287150353193283,
+        "sensitivity": 0.802158273381295,
+        "specificity": 0.9932191438246653,
+        "ppv": 0.11880660628662759,
+        "false_alert_checks_per_patient_day": 0.6361538461538462
+      },
+      "CGM mode | without EHR": {
+        "auroc": 0.997398847101671,
+        "auroc_fold_std": 0.0010947986151231567,
+        "auprc": 0.30725741567046444,
+        "prevalence": 0.0011384111384111384,
+        "n_moments": 244200,
+        "n_events": 278,
+        "threshold": 0.037748198956251144,
+        "sensitivity": 0.802158273381295,
+        "specificity": 0.9964414853928715,
+        "ppv": 0.20439963336388633,
+        "false_alert_checks_per_patient_day": 0.33384615384615385
+      },
+      "CGM mode | with EHR": {
+        "auroc": 0.997679423879989,
+        "auroc_fold_std": 0.0011320717616834682,
+        "auprc": 0.3283913074273327,
+        "prevalence": 0.0011384111384111384,
+        "n_moments": 244200,
+        "n_events": 278,
+        "threshold": 0.022727452218532562,
+        "sensitivity": 0.802158273381295,
+        "specificity": 0.9964660834201097,
+        "ppv": 0.2055299539170507,
+        "false_alert_checks_per_patient_day": 0.33153846153846156
+      },
+      "Smartwatch-only mode | without EHR": {
+        "auroc": 0.9892165817366195,
+        "auroc_fold_std": 0.003994483192567563,
+        "auprc": 0.060081801085597936,
+        "prevalence": 0.0011384111384111384,
+        "n_moments": 244200,
+        "n_events": 278,
+        "threshold": 0.004821569658815861,
+        "sensitivity": 0.802158273381295,
+        "specificity": 0.9841834684858274,
+        "ppv": 0.05464346973780936,
+        "false_alert_checks_per_patient_day": 1.4838461538461538
+      },
+      "Smartwatch-only mode | with EHR": {
+        "auroc": 0.996230544036987,
+        "auroc_fold_std": 0.0026141037065284304,
+        "auprc": 0.1979459028111661,
+        "prevalence": 0.0011384111384111384,
+        "n_moments": 244200,
+        "n_events": 278,
+        "threshold": 0.02516648918390274,
+        "sensitivity": 0.802158273381295,
+        "specificity": 0.9950721952099442,
+        "ppv": 0.15649122807017543,
+        "false_alert_checks_per_patient_day": 0.4623076923076923
+      }
+    }
+  },
+  "forecast": {
+    "+30 min": {
+      "Persistence (no model)": {
+        "mae": 16.348801060167858,
+        "rmse": 22.79143571631279
+      },
+      "CGM mode | without EHR": {
+        "mae": 9.511669655274458,
+        "rmse": 12.640515423024372
+      },
+      "CGM mode | with EHR": {
+        "mae": 9.46784598329326,
+        "rmse": 12.556994739289362
+      },
+      "Smartwatch-only mode | without EHR": {
+        "mae": 20.924111287954965,
+        "rmse": 27.107574635963932
+      },
+      "Smartwatch-only mode | with EHR": {
+        "mae": 13.358382709460665,
+        "rmse": 17.623437570152056
+      }
+    },
+    "+60 min": {
+      "Persistence (no model)": {
+        "mae": 24.89369907294973,
+        "rmse": 35.82237690357989
+      },
+      "CGM mode | without EHR": {
+        "mae": 12.90695143485121,
+        "rmse": 18.65210835530505
+      },
+      "CGM mode | with EHR": {
+        "mae": 12.980467704680754,
+        "rmse": 18.668548716344873
+      },
+      "Smartwatch-only mode | without EHR": {
+        "mae": 22.52642624654397,
+        "rmse": 29.56684275933441
+      },
+      "Smartwatch-only mode | with EHR": {
+        "mae": 15.578594689380742,
+        "rmse": 21.41799913509439
+      }
+    },
+    "+120 min": {
+      "Persistence (no model)": {
+        "mae": 36.45766400402541,
+        "rmse": 50.28309708650885
+      },
+      "CGM mode | without EHR": {
+        "mae": 17.687982847563767,
+        "rmse": 25.561333909604024
+      },
+      "CGM mode | with EHR": {
+        "mae": 17.97555601540398,
+        "rmse": 25.889516805723513
+      },
+      "Smartwatch-only mode | without EHR": {
+        "mae": 25.49335818278814,
+        "rmse": 33.98377782721555
+      },
+      "Smartwatch-only mode | with EHR": {
+        "mae": 19.310559369343206,
+        "rmse": 27.243948662376155
+      }
+    }
+  }
+}

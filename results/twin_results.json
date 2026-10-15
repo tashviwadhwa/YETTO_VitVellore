@@ -1,0 +1,35 @@
+{
+  "week2_median_error":{
+    "Population twin":17.8741518217,
+    "EHR twin":13.0419213511,
+    "Calibrated twin (GlucoTwin)":8.8285116102
+  },
+  "parameter_recovery_spearman":{
+    "Insulin sensitivity (SI)":{
+      "ehr":0.7510842552,
+      "cal":0.7822320558
+    },
+    "Disposition index (SI x beta)":{
+      "ehr":0.7445288924,
+      "cal":0.9286642166
+    },
+    "Liver glucose drive (Gb)":{
+      "ehr":0.7225917745,
+      "cal":0.9583790534
+    }
+  },
+  "calibration_history":[
+    13.757034659,
+    8.2074703008,
+    8.0978972414,
+    8.0604743356,
+    8.0220326717,
+    8.0107944913,
+    7.9983994657,
+    7.9985874053,
+    7.9982704052,
+    7.9984639818,
+    7.9987882917,
+    7.9983295752
+  ]
+}
