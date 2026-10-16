@@ -133,7 +133,8 @@ def top_reasons(contrib_row: pd.Series, x_row: pd.Series, k: int = 4):
         name, source, fmt = FEATURES.get(f, (f, "", "{}"))
         if f == "hour_sin":
             h = (np.degrees(np.arctan2(x_row["hour_sin"], x_row["hour_cos"])) / 15) % 24
-            value = f"{int(h):02d}:{int((h % 1) * 60):02d}"
+            mins = int(round(h * 60 / 5) * 5) % 1440
+            value = f"{mins // 60:02d}:{mins % 60:02d}"
         else:
             v = x_row[f]
             if pd.isna(v):

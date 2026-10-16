@@ -205,11 +205,12 @@ def theta_of(df: pd.DataFrame) -> dict:
 # ---------------------------------------------------------------------------
 # 4. Forecasting forward
 # ---------------------------------------------------------------------------
-def future_effects(inp: dict, rows, start_min, horizon: int) -> dict:
+def future_effects(inp: dict, rows, start_min, horizon: int, skip=()) -> dict:
     """Medicine effects over the forecast window, using only what is known now.
 
     Doses already taken keep acting. Doses due inside the window are assumed
-    to be taken as prescribed (the twin cannot know if the patient will skip).
+    to be taken as prescribed (the twin cannot know if the patient will skip),
+    unless the drug class is listed in `skip` (a what-if scenario).
     """
     from .physiology import _kernel
     T = inp["carbs"].shape[1]
@@ -219,7 +220,9 @@ def future_effects(inp: dict, rows, start_min, horizon: int) -> dict:
     out = {}
     for cls, raw in inp["effects_raw"].items():
         base = raw[rows[:, None], ttc]
-        delta = inp["planned"][cls][rows[:, None], ttc] - inp["dose"][cls][rows[:, None], ttc]
+        taken = inp["dose"][cls][rows[:, None], ttc]
+        planned = 0.0 if cls in skip else inp["planned"][cls][rows[:, None], ttc]
+        delta = planned - taken
         if np.any(delta):
             k = _kernel(cls)[:horizon]
             K = np.where(lag[None, :] >= lag[:, None], k[np.clip(lag[None, :] - lag[:, None], 0, None)], 0.0)

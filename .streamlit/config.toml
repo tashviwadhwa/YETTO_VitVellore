@@ -1,0 +1,21 @@
+[theme]
+base = "light"
+primaryColor = "#0E8584"
+backgroundColor = "#FAFAF7"
+secondaryBackgroundColor = "#F3F5F7"
+textColor = "#0E1B2C"
+font = "Instrument Sans:https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap"
+baseRadius = "6px"
+borderColor = "#D9DEE4"
+showWidgetBorder = true
+baseFontSize = 15
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F5F7"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+headless = true

@@ -166,6 +166,7 @@ python scripts/04_calibrate_twins.py        # calibrate 200 twins (~4 min)
 python scripts/05_hybrid_model.py           # twin + ML, week 2 (~5-10 min)
 python scripts/06_train_final_models.py     # dashboard models + explanations (~1 min)
 python scripts/07_deep_fusion.py            # deep network vs XGBoost (~10-20 min)
+streamlit run app.py                        # launch interactive clinician dashboard
 ```
 
 ## Project structure
@@ -194,8 +195,8 @@ results/              metrics (JSON) and charts
 | Twin calibration | Bergman Minimal Model (extended), Cross-Entropy Method optimiser |
 | Machine learning | XGBoost, scikit-learn, PyTorch (GRU deep fusion network) |
 | Explainability | TreeSHAP (XGBoost exact feature contributions) |
-| Charts | Matplotlib |
-| Dashboard | Streamlit (coming next) |
+| Charts | Matplotlib, Plotly |
+| Dashboard | Streamlit (Clinical Cockpit, TreeSHAP Explainability, What-If Simulator) |
 
 ## License
 MIT License. See [LICENSE](LICENSE).
