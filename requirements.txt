@@ -14,3 +14,4 @@ torch>=2.1
 # Day 4: doctor dashboard
 streamlit>=1.50
 plotly>=5.20
+pyarrow>=14

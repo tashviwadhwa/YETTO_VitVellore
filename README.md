@@ -1,7 +1,17 @@
 # GlucoTwin: A Digital Twin for Type 2 Diabetes Patients in India
 
-> Work in progress. This README will be completed with results, the demo video,
-> architecture diagram and presentation before submission.
+> A personal digital twin that fuses the health record with wearable data to warn of glucose
+> spikes and hypoglycaemia **2 hours ahead**, explain every alert, and let a doctor test a care
+> plan on the twin before the patient tries it. Happiest Health Digital Twin Challenge, Phase 1.
+
+## Submission links
+| Deliverable | Link |
+|---|---|
+| Demo video (20+ min) | [YouTube (unlisted)](VIDEO_LINK_HERE) |
+| Presentation | [docs/presentation.pdf](docs/presentation.pdf) |
+| Architecture diagram | [docs/architecture.pdf](docs/architecture.pdf) |
+| Code | this repository |
+| License | [MIT](LICENSE) |
 
 ## Team details
 | | |
@@ -32,6 +42,14 @@ and **predicts adverse events 2 hours in advance**:
 A doctor dashboard shows the virtual patient, explains each alert, and lets the
 doctor run "what-if" experiments (different meal, a walk, a medicine change) on the
 twin before changing anything for the real patient.
+
+## Architecture
+![GlucoTwin architecture](docs/architecture.png)
+
+Five layers, one flow: **data sources** (synthetic Indian cohort) → **data fusion** (one snapshot
+every 15 minutes) → **personal digital twin** (calibrated physiology model) → **intelligence**
+(spike predictor, hypo detector, TreeSHAP explainer, what-if simulator) → **clinician dashboard**.
+[PDF version](docs/architecture.pdf)
 
 ## Data (100% synthetic, privacy-safe)
 No real patient data is used, in line with the DPDP Act 2023 and HIPAA.
@@ -142,6 +160,28 @@ Multi-task learning helps the rare hypo task borrow from the common tasks; the e
 
 ![Deep vs XGBoost](results/deep_vs_xgboost.png)
 
+## Clinician dashboard
+```bash
+streamlit run app.py        # or double-click run_dashboard.bat on Windows
+```
+A Streamlit dashboard with six views, grouped by patient and population:
+
+| View | What the doctor does there |
+|---|---|
+| Patient overview | Health record, labs, prescriptions, and time in range against the international CGM targets |
+| Digital twin | The patient's calibrated parameters and 14 days of fused data: CGM, the twin's reconstruction, heart rate, HRV, steps, sleep |
+| Predictive alerts | Spike and hypo risk for the next 2 hours at any moment, in CGM-worn or smartwatch-only mode, with TreeSHAP reasons |
+| What-if simulator | Two care plans (meal, carbs, timing, walk, glimepiride) run on the twin from its saved state and compared |
+| Cohort explorer | All 200 patients: filters, BMI vs HbA1c, disposition index, CSV export |
+| Model evidence | Benchmarks read from `results/`, figures, ethics and limitations |
+
+Every number is labelled as observed, predicted or simulated; what-if results are hypothetical
+predictions, not treatment recommendations.
+
+![What-if simulator](docs/figures/dashboard_whatif.png)
+![Predictive alerts](docs/figures/dashboard_alerts.png)
+![Patient overview](docs/figures/dashboard_overview.png)
+
 ## Limitations (honest notes)
 - **Synthetic data.** All patients are simulated. The twin's equations have the same structure as
   the simulator that generated the data, which flatters the twin; some parameters (glucose
@@ -155,7 +195,17 @@ Multi-task learning helps the rare hypo task borrow from the common tasks; the e
 - Decision support only, not a diagnostic device.
 
 ## How to run
-Requires Python 3.10+. Run from the project root, in order:
+Requires Python 3.10+. Run every command from the project root (the folder that contains `app.py`).
+
+**Quick start: open the dashboard** (the generated data, twins and models are already in the repo):
+```bash
+pip install -r requirements.txt
+python scripts/02_build_features.py         # builds data/processed (~1 min)
+python scripts/05_hybrid_model.py           # twin features for week 2 (~4 min)
+streamlit run app.py
+```
+
+**Full pipeline**, to regenerate everything from scratch, in order:
 ```bash
 pip install -r requirements.txt
 python scripts/01_generate_data.py          # synthetic cohort (~30 s)
@@ -182,6 +232,12 @@ glucotwin/            core library
   hybrid.py           twin forecasts as ML features
   explain.py          TreeSHAP reasons in plain language
   deep.py             GRU + MLP deep fusion network
+  whatif.py           what-if scenarios simulated on a patient's twin
+  dashboard_data.py   data and model access for the dashboard
+app.py                Streamlit clinician dashboard (six views)
+ui_kit.py             dashboard design system: colours, type, chart styling
+.streamlit/           dashboard theme
+docs/                 architecture diagram, presentation, figures
 scripts/              numbered pipeline steps (run in order)
 data/                 generated data (EHR, wearables, app logs, twins, ground truth)
 models/               trained models + model card
@@ -196,7 +252,7 @@ results/              metrics (JSON) and charts
 | Machine learning | XGBoost, scikit-learn, PyTorch (GRU deep fusion network) |
 | Explainability | TreeSHAP (XGBoost exact feature contributions) |
 | Charts | Matplotlib, Plotly |
-| Dashboard | Streamlit (Clinical Cockpit, TreeSHAP Explainability, What-If Simulator) |
+| Dashboard | Streamlit, Plotly (patient overview, digital twin, predictive alerts, what-if simulator, cohort, evidence) |
 
 ## License
 MIT License. See [LICENSE](LICENSE).
