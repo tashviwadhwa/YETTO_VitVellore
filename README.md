@@ -95,10 +95,9 @@ seen, like a new patient walking into a clinic.
 | EHR only | 0.76 | 0.14 | - |
 
 While a CGM is worn, recent glucose already reveals most of what the record says. Without
-a CGM (the everyday situation for most Indian patients, as sensors cost about Rs 4,000-5,000
-per fortnight), fusing the record with smartwatch data **triples hypoglycaemia alert quality**
+a CGM (the everyday situation for most Indian patients, as one sensor costs about Rs 5,000
+and lasts 14 days), fusing the record with smartwatch data **triples hypoglycaemia alert quality**
 and cuts forecast error by 36%.
-
 ![Fusion ablation](results/fusion_ablation.png)
 
 ### 2. The calibrated digital twin
@@ -125,7 +124,7 @@ the minimal model), so we report their product.
 | | Spike AUPRC | Hypo AUPRC | Forecast error +60 min |
 |---|---|---|---|
 | Twin alone (physics, no ML) | 0.64 | **0.63** | 12.8 mg/dL |
-| Smartwatch + EHR | 0.83 | 0.13 | 15.7 mg/dL |
+| Smartwatch + EHR | 0.82 | 0.13 | 15.7 mg/dL |
 | **Smartwatch + EHR + twin** | **0.86** | 0.26 | **12.8 mg/dL** |
 | CGM + EHR (reference, CGM worn) | 0.84 | 0.19 | 13.2 mg/dL |
 
