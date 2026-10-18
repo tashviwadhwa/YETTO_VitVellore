@@ -98,6 +98,7 @@ While a CGM is worn, recent glucose already reveals most of what the record says
 a CGM (the everyday situation for most Indian patients, as one sensor costs about Rs 5,000
 and lasts 14 days), fusing the record with smartwatch data **triples hypoglycaemia alert quality**
 and cuts forecast error by 36%.
+
 ![Fusion ablation](results/fusion_ablation.png)
 
 ### 2. The calibrated digital twin
