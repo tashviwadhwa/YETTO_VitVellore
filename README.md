@@ -7,7 +7,7 @@
 ## Submission links
 | Deliverable | Link |
 |---|---|
-| Demo video (20+ min) | [YouTube (unlisted)](VIDEO_LINK_HERE) |
+| Demo video (20+ min) | [YouTube (unlisted)](https://youtu.be/IkT02Gda6u0) |
 | Presentation | [docs/presentation.pdf](docs/presentation.pdf) |
 | Architecture diagram | [docs/architecture.pdf](docs/architecture.pdf) |
 | Code | this repository |
